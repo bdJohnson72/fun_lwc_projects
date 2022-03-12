@@ -1,22 +1,23 @@
 {
-    "packageDirectories": [
-        {
-            "path": "force-app",
-            "default": true
-        },
-        {
-            "path": ".\\force-app",
-            "package": "fun_lwc_projects",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false
-        }
-    ],
-    "name": "lwc_projects",
-    "namespace": "",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "53.0",
-    "packageAliases": {
-        "fun_lwc_projects": "0Ho4x000000TNI3CAO"
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    },
+    {
+      "path": ".\\force-app",
+      "package": "fun_lwc_projects",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false
     }
+  ],
+  "name": "lwc_projects",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "53.0",
+  "packageAliases": {
+    "fun_lwc_projects": "0Ho4x000000TNI3CAO",
+    "fun_lwc_projects@0.1.0-1": "04t4x000000VEQyAAO"
+  }
 }

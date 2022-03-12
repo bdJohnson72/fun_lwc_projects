@@ -1,0 +1,44 @@
+<!--
+ - Created by Brooks Johnson on 3/12/2022.
+ -->
+
+<!-- Rock Paper Scissors -->
+<template>
+  <lightning-card title="Rock Paper Scissors" icon-name="custom47">
+    <div class="slds-var-m-around_small">
+      <p>
+        <span class="slds-var-p-right_medium">Player Score: {playerScore}</span>
+        <span>Computer Score: {computerScore}</span>
+      </p>
+      <p class="slds-var-m-vertical_small">Winner: {winner}</p>
+      <p class="slds-var-m-vertical_small player-guess">
+        Your guess: {playerGuess}
+      </p>
+      <p class="slds-var-m-vertical_small computer-guess">
+        Computer Guess: {computerGuess}
+      </p>
+      <lightning-button
+              label="rock"
+              variant="neutral"
+              name="rock"
+              onclick="{handleClick}"
+      >
+      </lightning-button>
+      <lightning-button
+              label="paper"
+              class="slds-var-m-around_small"
+              variant="neutral"
+              name="paper"
+              onclick="{handleClick}"
+      >
+      </lightning-button>
+      <lightning-button
+              label="scissors"
+              variant="neutral"
+              name="scissors"
+              onclick="{handleClick}"
+      >
+      </lightning-button>
+    </div>
+  </lightning-card>
+</template>
